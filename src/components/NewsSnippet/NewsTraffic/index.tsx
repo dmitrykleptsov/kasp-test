@@ -16,7 +16,8 @@ const Index: React.FC<INewsMeta> = ({ traffic }: { traffic: IData_TrafficItem[] 
 					Top Traffic:&nbsp;
 					{topTraffic.map((item, index) => (
 						<React.Fragment key={`${index}_country`}>
-							{item?.value || ''} <strong style={{color: 'var(--text-color)'}}>{item.percentage} </strong>
+							{item?.value || ''}{' '}
+							<strong style={{ color: 'var(--text-color)' }}>{item.percentage} </strong>
 						</React.Fragment>
 					))}
 				</span>
