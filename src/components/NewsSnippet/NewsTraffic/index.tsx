@@ -1,6 +1,5 @@
 import React from 'react'
 import { IData_TrafficItem, INewsMeta } from '../../../types/types'
-import { COLORS } from '../../../constants/inlineStyles/colors'
 
 const Index: React.FC<INewsMeta> = ({ traffic }: { traffic: IData_TrafficItem[] }) => {
 	const topTraffic = traffic?.length
