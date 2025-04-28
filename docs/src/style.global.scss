@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--primary-color: #1377dc;
+	--text-color: #e0e0e0;
+	--bg-color: #1e1e2d;
+	--highlight-bg: #3c81e8;
+	--border-radius: 8px;
+	--grey: grey;
+}
+
+body {
+	padding: 20px;
+	background-color: #141421;
+	min-height: 100vh;
+}
