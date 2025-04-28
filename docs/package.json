@@ -1,7 +1,7 @@
 {
-  "name": "kaspersky-test",
+  "name": "kasp-test",
   "version": "0.1.0",
-  "homepage": "https://dmitrykleptsov.github.io/kasp",
+  "homepage": "https://dmitrykleptsov.github.io/kasp-test",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^5.6.1",
