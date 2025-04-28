@@ -1,5 +1,6 @@
 import React from 'react'
 import { IData_TrafficItem, INewsMeta } from '../../../types/types'
+import { COLORS } from '../../../constants/inlineStyles/colors'
 
 const Index: React.FC<INewsMeta> = ({ traffic }: { traffic: IData_TrafficItem[] }) => {
 	const topTraffic = traffic?.length
@@ -16,7 +17,7 @@ const Index: React.FC<INewsMeta> = ({ traffic }: { traffic: IData_TrafficItem[] 
 					Top Traffic:&nbsp;
 					{topTraffic.map((item, index) => (
 						<React.Fragment key={`${index}_country`}>
-							{item?.value || ''} <strong>{item.percentage} </strong>
+							{item?.value || ''} <strong style={{color: 'var(--text-color)'}}>{item.percentage} </strong>
 						</React.Fragment>
 					))}
 				</span>
