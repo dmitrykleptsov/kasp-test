@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/kasp/static/css/main.534917c2.css",
-    "main.js": "/kasp/static/js/main.89ab5e34.js",
-    "index.html": "/kasp/index.html",
-    "main.534917c2.css.map": "/kasp/static/css/main.534917c2.css.map",
-    "main.89ab5e34.js.map": "/kasp/static/js/main.89ab5e34.js.map"
+    "main.css": "/kasp-test/static/css/main.534917c2.css",
+    "main.js": "/kasp-test/static/js/main.89ab5e34.js",
+    "index.html": "/kasp-test/index.html",
+    "main.534917c2.css.map": "/kasp-test/static/css/main.534917c2.css.map",
+    "main.89ab5e34.js.map": "/kasp-test/static/js/main.89ab5e34.js.map"
   },
   "entrypoints": [
     "static/css/main.534917c2.css",
