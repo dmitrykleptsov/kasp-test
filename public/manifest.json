@@ -1,0 +1,6 @@
+{
+    "short_name": "Kaspersky test",
+    "name": "Kaspersky test",
+    "start_url": ".",
+    "display": "standalone"
+}
